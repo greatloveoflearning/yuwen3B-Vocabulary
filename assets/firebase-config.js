@@ -16,16 +16,15 @@ if (window.FIREBASE_USE_EMULATOR) {
     appId: "1:000000000000:web:0000000000000000000000",
   };
 } else {
-  // REPLACE_ME: fill in once the yuwen3B Firebase project is created
-  // (playbook step 5). Not a secret — this just identifies which Firebase
-  // project the site talks to; access is enforced by firestore.rules, not
-  // by hiding this value.
+  // yuwen3b Firebase project's web app config. Not a secret — this just
+  // identifies which Firebase project the site talks to; access is enforced
+  // by firestore.rules, not by hiding this value.
   window.FIREBASE_CONFIG = {
-    apiKey: "REPLACE_ME",
-    authDomain: "REPLACE_ME.firebaseapp.com",
-    projectId: "REPLACE_ME",
-    storageBucket: "REPLACE_ME.firebasestorage.app",
-    messagingSenderId: "REPLACE_ME",
-    appId: "REPLACE_ME",
+    apiKey: "AIzaSyCoOA5cRAxe4ghnWAKB8-khH-q2gigu-wY",
+    authDomain: "yuwen3b.firebaseapp.com",
+    projectId: "yuwen3b",
+    storageBucket: "yuwen3b.firebasestorage.app",
+    messagingSenderId: "914305468231",
+    appId: "1:914305468231:web:f8371cb9ff59751b2c2e62",
   };
 }
